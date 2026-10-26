@@ -1,0 +1,14 @@
+# One entry per repository.
+# Only "description" is required, everything else comes from the module defaults.
+
+tp-gitops-app:
+  description: "Application source and CI, builds and pushes the image"
+  topics: ["devops", "gitops", "ci"]
+
+tp-gitops-manifests:
+  description: "Kubernetes manifests, source of truth for the CD agent"
+  topics: ["devops", "gitops", "argocd", "kubernetes"]
+
+github-config:
+  description: "GitHub repositories and rulesets managed with Terraform"
+  topics: ["terraform", "iac", "github"]
