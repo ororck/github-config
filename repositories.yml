@@ -9,6 +9,10 @@ tp-gitops-manifests:
   description: "Kubernetes manifests, source of truth for the CD agent"
   topics: ["devops", "gitops", "argocd", "kubernetes"]
 
+tp-gitops-infra:
+  description: "Terraform that installs the ArgoCD agent in the cluster"
+  topics: ["devops", "gitops", "terraform", "argocd"]
+
 github-config:
   description: "GitHub repositories and rulesets managed with Terraform"
   topics: ["terraform", "iac", "github"]
